@@ -167,6 +167,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  flex-direction: row-reverse;
 }
 
 .section__pic-container {
@@ -291,8 +292,21 @@ section {
   display: flex;
 }
 
+.section__aboutpic-container {
+  display: flex;
+  height: 85%;
+  width: 85%;
+  margin: 0 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 .about-pic {
-  border-radius: 2rem;
+  border-radius: 10rem;
+  width: 57%;
+  height: 71%;
+  padding: 36px;
+  margin: 41px;
 }
 
 .arrow {
