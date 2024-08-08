@@ -369,7 +369,7 @@ section {
 } */
 
 .progress-bar {
-  width: 700%;
+  width: 500%;
   background-color: #f3f3f3;
   border-radius: 13px;
   overflow: hidden;
