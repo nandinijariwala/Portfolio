@@ -309,6 +309,10 @@ section {
   margin: 41px;
 }
 
+.text-container {
+  margin-top: 5%;
+}
+
 .arrow {
   position: absolute;
   right: -5rem;
@@ -355,16 +359,38 @@ section {
   flex-direction: column;
 }
 
-.article-container {
+/* .article-container {
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+} */
+
+.progress-bar {
+  width: 700%;
+  background-color: #f3f3f3;
+  border-radius: 13px;
+  overflow: hidden;
+  height: 10px; /* Adjusted height for a thinner bar */
+  margin-top: 5px;
 }
 
-article {
+.progress {
+  height: 100%;
+  background-color: rgb(85, 85, 85);
+  border-radius: 13px;
+}
+
+.skill-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* article {
   display: flex;
   width: 10rem;
   justify-content: space-around;
@@ -373,7 +399,7 @@ article {
 
 article .icon {
   cursor: default;
-}
+} */
 
 /* PROJECTS SECTION */
 
