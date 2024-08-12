@@ -305,8 +305,10 @@ section {
   border-radius: 10rem;
   width: 81%;
   height: 71%;
-  padding: 36px;
-  margin: 34px;
+  /* padding: 36px; */
+  padding: 85px;
+  margin: 51px;
+  /* margin: 34px; */
 }
 
 .text-container {
