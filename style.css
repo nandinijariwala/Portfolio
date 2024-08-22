@@ -302,7 +302,7 @@ section {
 }
 
 .about-pic {
-  border-radius: 10rem;
+  /* border-radius: 10rem; */
   width: 81%;
   height: 71%;
   padding: 36px;
